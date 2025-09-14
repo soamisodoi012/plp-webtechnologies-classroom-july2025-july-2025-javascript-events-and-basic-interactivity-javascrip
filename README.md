@@ -22,17 +22,6 @@ It was built as part of an assignment to practice making web pages feel **dynami
 - Regex-based email and password checks
 - User-friendly error messages
 - Success message on valid submission
-
----
-
-## 📂 Project Structure
-├── index.html # Main HTML structure
-├── style.css # Styling (light/dark mode, FAQ, form, etc.)
-├── script.js # JavaScript (events, interactivity, validation)
-└── README.md # Project documentation
-
----
-
 ## 💻 How to Run
 1. Clone this repository or download the files.
 2. Open `index.html` in your browser.
