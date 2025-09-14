@@ -42,18 +42,6 @@ It was built as part of an assignment to practice making web pages feel **dynami
    - Expand/collapse the FAQ ❓
    - Submit the form 📋
 
----
-
-## 🎨 Screenshots
-
-### Light Mode
-![Light Mode Screenshot](#)
-
-### Dark Mode
-![Dark Mode Screenshot](#)
-
----
-
 ## 📚 Learning Goals
 - Use **JavaScript event listeners** effectively
 - Manipulate the **DOM dynamically**
