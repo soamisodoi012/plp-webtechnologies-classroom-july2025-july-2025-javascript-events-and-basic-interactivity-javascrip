@@ -1,0 +1,159 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f7f9fc;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+  padding: 20px;
+}
+
+/* Dark mode */
+body.dark {
+  background: #1e1e2f;
+  color: #f5f5f5;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+body.dark header h1 {
+  color: #f5f5f5;
+}
+
+/* Sections */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: background 0.3s;
+}
+
+body.dark section {
+  background: #2a2a40;
+}
+
+/* Buttons */
+button {
+  background: #4a90e2;
+  border: none;
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #357ab7;
+  transform: translateY(-2px);
+}
+
+body.dark button {
+  background: #6c63ff;
+}
+
+body.dark button:hover {
+  background: #5146d8;
+}
+
+/* Counter display */
+#counter {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #4a90e2;
+}
+
+body.dark #counter {
+  color: #6c63ff;
+}
+
+/* FAQ */
+.faq {
+  margin: 10px 0;
+}
+
+.question {
+  cursor: pointer;
+  padding: 12px;
+  background: #ecf0f1;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.question:hover {
+  background: #dce4eb;
+}
+
+.answer {
+  margin-top: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid #4a90e2;
+  border-radius: 4px;
+}
+
+body.dark .question {
+  background: #3c3c55;
+}
+
+body.dark .question:hover {
+  background: #505070;
+}
+
+body.dark .answer {
+  background: #2e2e44;
+  border-left-color: #6c63ff;
+}
+
+/* Form */
+form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.success {
+  color: green;
+  margin-top: 12px;
+  font-weight: bold;
+}
